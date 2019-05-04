@@ -813,6 +813,30 @@
       padding: 20px;
       transition: color 0.5s;
     }
+    .about {
+      background-color: #e5e5e5;
+    }
+    .about-content {
+      font-size: 1.2em;
+    }
+    .section h2 {
+      margin-top: 0;
+      font-size: 2em;
+    }
+    .section {
+      display: block;
+      padding-top: 100px;
+      padding-bottom: 80px;
+    }
+    .about-wrap {
+      max-width: 1340px;
+     margin: auto;
+     padding: 0 20px;
+      display: grid;
+      grid-template-columns: 929px 271px;
+      grid-column-gap: 100px;
+    }
+    
     
     @media (min-width: 993px) {
       .skills {
